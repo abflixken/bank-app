@@ -11,7 +11,7 @@ export function Customer() {
 
         console.log(`Id ${acId} Name ${acNm} Bal ${balance}`)
 
-        fetch('http://localhost:5000/create', {
+        fetch('/create', {
             method : 'POST',
             headers : {
                 'Accept' : 'application/json',

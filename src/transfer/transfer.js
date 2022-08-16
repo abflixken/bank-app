@@ -11,7 +11,7 @@ export function Transfer() {
 
         console.log(`Source ${srcId} Destination ${destId} Amount ${amount}`)
 
-        fetch('http://localhost:5000/transfer', {
+        fetch('/transfer', {
             method : 'PUT',
             headers : {
                 'Accept' : 'application/json',

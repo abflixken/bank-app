@@ -13,7 +13,7 @@ export function Balance() {
 
         console.log(`Id ${acId} `)
 
-        fetch(`http://localhost:5000/balance/${acId}`)
+        fetch(`/balance/${acId}`)
         .then( res => res.json() )
         .then(json => setBal(json.bal))
     }

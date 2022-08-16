@@ -10,7 +10,7 @@ export function Withdraw() {
 
         console.log(`Id ${acId} Amount ${amount}`)
 
-        fetch('http://localhost:5000/withdraw', {
+        fetch('/withdraw', {
             method : 'PUT',
             headers : {
                 'Accept' : 'application/json',

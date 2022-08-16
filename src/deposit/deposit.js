@@ -10,7 +10,7 @@ export function Deposit() {
 
         console.log(`Id ${acId} Amount ${amount}`)
 
-        fetch('http://localhost:5000/deposit', {
+        fetch('/deposit', {
             method : 'PUT',
             headers : {
                 'Accept' : 'application/json',
